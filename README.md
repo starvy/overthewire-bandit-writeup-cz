@@ -55,3 +55,16 @@ ssh -i bandit.key bandit14@bandit.labs.overthewire.org -p 2220
 ### na winech jsem pouzil vscode
 
 # lvl 14
+cat /etc/bandit_pass/bandit14 | nc localhost 30000
+
+# lvl 15
+ncat --ssl localhost 30001
+zadat heslo
+
+# lvl 16
+nmap localhost -p 31000-32000
+zkouset nalezeny porty
+ncat --ssl localhost 31790
+
+# lvl 17
+diff passwords.new passwords.old
