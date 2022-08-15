@@ -55,9 +55,13 @@ opakovat z ruznejma formatama
 
 # lvl 13
 `cat sshkey.private`
+
 zkopirovat
-`echo ${KEY} > bandit.key
-chmod 400 bandit.key`
+
+`echo ${KEY} > bandit.key`
+
+`chmod 400 bandit.key`
+
 `ssh -i bandit.key bandit14@bandit.labs.overthewire.org -p 2220`
 
 ### na winech jsem pouzil vscode
