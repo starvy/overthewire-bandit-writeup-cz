@@ -80,3 +80,20 @@ zkouset nalezeny porty
 zadat aktualni heslo
 # lvl 17
 `diff passwords.new passwords.old`
+
+# lvl 18
+`ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme`
+
+# lvl 19
+`./bandit20-do whoami`
+
+`./bandit20-do cat /etc/bandit_pass/bandit20`
+
+# lvl 20
+`nc -lvnp 8080`
+
+pripojim se pres ssh z jinyho tabu v terminalu
+
+`./suconnect 8080`
+
+vlozim aktualni heslo
